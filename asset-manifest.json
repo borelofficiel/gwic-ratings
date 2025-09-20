@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gwic-ratings/static/css/main.18fc67d6.css",
-    "main.js": "/gwic-ratings/static/js/main.e812612a.js",
+    "main.js": "/gwic-ratings/static/js/main.ade8eb5c.js",
     "index.html": "/gwic-ratings/index.html",
     "main.18fc67d6.css.map": "/gwic-ratings/static/css/main.18fc67d6.css.map",
-    "main.e812612a.js.map": "/gwic-ratings/static/js/main.e812612a.js.map"
+    "main.ade8eb5c.js.map": "/gwic-ratings/static/js/main.ade8eb5c.js.map"
   },
   "entrypoints": [
     "static/css/main.18fc67d6.css",
-    "static/js/main.e812612a.js"
+    "static/js/main.ade8eb5c.js"
   ]
 }
