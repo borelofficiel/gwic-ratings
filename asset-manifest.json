@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gwic-ratings/static/css/main.18fc67d6.css",
+    "main.js": "/gwic-ratings/static/js/main.e685afe2.js",
+    "index.html": "/gwic-ratings/index.html",
+    "main.18fc67d6.css.map": "/gwic-ratings/static/css/main.18fc67d6.css.map",
+    "main.e685afe2.js.map": "/gwic-ratings/static/js/main.e685afe2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18fc67d6.css",
+    "static/js/main.e685afe2.js"
+  ]
+}
