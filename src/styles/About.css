@@ -1,0 +1,71 @@
+/* Styles de base pour la page À propos */
+.about {
+  width: 100%;
+  min-height: 100vh; /* prend toute la hauteur de l'écran */
+  padding: 60px 20px;
+  background-color: #f5faff; /* fond blanc-bleuté */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about h1 {
+  color: #1e3a8a; /* bleu principal */
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Chaque section mission / expertise / partenaires */
+.about-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.about-item:hover {
+  transform: translateY(-5px);
+}
+
+.about-icon {
+  font-size: 3rem;
+  color: #16a34a; /* vert pour les icônes */
+  margin-bottom: 15px;
+}
+
+.about h2 {
+  color: #1e3a8a;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+  .about-item {
+    width: 95%;
+    padding: 20px 15px;
+  }
+
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about h2 {
+    font-size: 1.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+}

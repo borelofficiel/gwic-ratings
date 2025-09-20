@@ -1,0 +1,67 @@
+/* SECTION INVESTORS */
+.investors {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 20px;
+  background-color: #f5faff; /* fond bleu très clair */
+  text-align: center;
+}
+
+.investors h1 {
+  color: #1e3a8a; /* bleu principal */
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.investors p {
+  font-size: 1.2rem;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+/* Cartes des services */
+.investor-services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #16a34a; /* vert principal */
+  margin-bottom: 15px;
+}
+
+.service-card h2 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .investor-services {
+    flex-direction: column;
+    align-items: center;
+  }
+}

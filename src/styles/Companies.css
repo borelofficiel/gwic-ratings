@@ -1,0 +1,88 @@
+/* COMPANIES SECTION */
+.companies {
+  width: 100%;
+  min-height: 100vh; /* prend toute la hauteur de la fenêtre */
+  padding: 60px 20px;
+  background-color: #f5faff; /* fond clair */
+  text-align: center;
+}
+
+.companies h1 {
+  color: #1e3a8a; /* bleu principal */
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.companies p {
+  font-size: 1.2rem;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+/* Container pour les cartes des labels */
+.labels-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* passe sur plusieurs lignes si écran étroit */
+}
+
+/* Cartes individuelles */
+.label-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: default;
+}
+
+.label-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Icônes des labels */
+.label-icon {
+  font-size: 2.5rem;
+  color: #16a34a; /* vert par défaut */
+  margin-bottom: 15px;
+}
+
+/* Titres et descriptions des cartes */
+.label-card h2 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.label-card p {
+  font-size: 1rem;
+  color: #555555;
+}
+
+/* Couleurs spécifiques pour chaque label */
+.label-card.bronze .label-icon {
+  color: #cd7f32; /* bronze */
+}
+
+.label-card.silver .label-icon {
+  color: #c0c0c0; /* argent */
+}
+
+.label-card.gold .label-icon {
+  color: #ffd700; /* or */
+}
+
+/* Responsive pour mobiles */
+@media (max-width: 768px) {
+  .labels-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .label-card {
+    width: 80%; /* s’adapte à l’écran */
+  }
+}
